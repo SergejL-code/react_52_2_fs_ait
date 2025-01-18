@@ -9,20 +9,23 @@
 }
 .card {
   width: 500px;
-  height: 600px;
+  height: auto;
   border: 3px solid #ccc;
-  border-radius: 10px;
+  border-radius: 25px;
   background-color: #574fce;
   box-shadow: 5px 2px 61px aliceblue;
 }
 .name {
-  font-size: 80px;
+  font-size: 50px;
   padding: 30px 15px 0px 30px;
+  color: #ccc;
 }
 .profession {
   padding: 15px 15px 0px 15px;
-  font-size: 40px;
+  font-size: 30px;
+  color: #ccc;
 }
 .hobby {
-  font-size: 30px;
+  font-size: 25px;
+  color: bisque;
 }

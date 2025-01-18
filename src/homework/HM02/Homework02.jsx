@@ -1,7 +1,7 @@
 import ProfileCard from "../../assets/components/ProfileCard/ProfileCard.jsx";
 function Homework02() {
   const person1 = {
-    name: "Eduard Sidorovich ",
+    name: " Anton Shurupov",
     profession: "Software Developer",
     hobby:
       " Я увлекаюсь программированием, чтением книг и путешествиями. Люблю изучать новые технологии и создавать интересные проекты.",
