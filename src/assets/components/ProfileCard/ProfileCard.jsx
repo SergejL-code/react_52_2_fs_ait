@@ -1,5 +1,5 @@
 import "./profileCard.css";
-function ProfileCard({ name, profession, hobby, img }) {
+function ProfileCard({ img, name, profession, hobby }) {
   return (
     <div className="card">
       <img className="avatar-img" src={img} alt={`${name}'s avatar`} />

@@ -18,11 +18,17 @@ function Homework02() {
   const person3 = {
     name: " Alex Petrov",
     profession: "Financial Consultant",
-    hobby: "Фотография дикой природы",
+    hobby: "Я увлекаюсь фотографированием  дикой природы",
     img: "https://99px.ru/cms/temp/module_temp1/image1_image_1251123173741217343150x150.jpg",
   };
 
-  return <ProfileCard {...person1} />;
+  return (
+    <div>
+      <ProfileCard {...person1} />
+      <ProfileCard {...person2} />
+      <ProfileCard {...person3} />
+    </div>
+  );
 }
 
 export default Homework02;
