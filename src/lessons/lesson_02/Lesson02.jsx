@@ -43,13 +43,13 @@ function Lesson02() {
       <p>{showDeveloper(angular)}</p>
       <p>{showDeveloper(element)}</p>
 
-      {/*пример  */}
+      {/* пример использования тернарного оператора в JSX */}
       {isLoggedIn ? (
         <img width={"250px"} src={react.logo} alt="" />
       ) : (
         <h4>To see image you need to authorized</h4>
       )}
-
+      {/* пример множественного импорта компонентов в файл */}
       <div>
         <MyButton />
         <MyButton />

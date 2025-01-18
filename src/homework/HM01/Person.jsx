@@ -5,15 +5,17 @@ import fTrollIMG from "../HM01/ftroll.jpg";
 function Person() {
   return (
     <div className={style.Person}>
-      <img src={fTrollIMG} alt="troll-Img" />
+      <img src={fTrollIMG} alt="troll-LSW" />
 
-      <div className={style.name}>
-        <h1>Sergej</h1>
+      <div className={style.div_name}>
+        <h1 className="name">Legendary Software Wanderer</h1>
       </div>
-      <p>
-        Я увлекаюсь программированием, чтением книг и путешествиями. Люблю
-        изучать новые технологии и создавать интересные проекты.
-      </p>
+      <div className="div_hobby">
+        <p className="hobby">
+          Я увлекаюсь программированием, чтением книг и путешествиями. Люблю
+          изучать новые технологии и создавать интересные проекты.
+        </p>
+      </div>
     </div>
   );
 }

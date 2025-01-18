@@ -1,7 +1,7 @@
-.myButton {
+.MyButton {
   margin: 3px;
   background-color: #0082fc;
 }
-.myButton:hover {
-  background-color: #03265a;
+.MyButton:hover {
+  background-color: #15448a;
 }
