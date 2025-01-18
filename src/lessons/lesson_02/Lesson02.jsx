@@ -26,7 +26,7 @@ function Lesson02() {
   }
 
   // переменная от значения которой зависит изображения данных
-  const isLoggedIn = false;
+  const isLoggedIn = true;
   return (
     <div>
       <h2>React JSX components 🤖</h2>
