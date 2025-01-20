@@ -10,9 +10,9 @@
 // пример отдельного компонента кнопки
 // экспорт по умолчанию можно писать как в конце так и в начале
 import "./myButton.css";
-function MyButton({ text, func, type }) {
+function MyButton({ text, func }) {
   return (
-    <button type={type} onClick={func} className="MyButton">
+    <button onClick={func} className="MyButton">
       {text}
     </button>
   );

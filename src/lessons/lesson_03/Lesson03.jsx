@@ -17,9 +17,6 @@ function Lesson03() {
 
       <MyButton text={"Berechnen"} funk={sum} />
       <MyButton text={"Open"} funk={open} />
-
-      <MyButton text={"Berechnen"} funk={sum} />
-      <MyButton />
     </div>
   );
 }
