@@ -1,4 +1,4 @@
-import UserCard from "../../assets/components/userCard/UserCard";
+import UserCard from "../../components/userCard/UserCard";
 
 function Lesson03() {
   return (
