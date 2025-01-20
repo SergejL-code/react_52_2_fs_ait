@@ -1,11 +1,12 @@
 .avatar-img {
-  margin-top: 25px 25px 10 px 25px;
+  margin: auto;
   width: 150px;
   height: 150px;
   border-radius: 35%;
   object-fit: cover;
   margin-bottom: 30px;
   box-shadow: 5px 2px 61px 10px aliceblue;
+  /* 25px 25px 25px 10px; */
 }
 .card {
   width: 500px;
@@ -17,11 +18,12 @@
 }
 .name {
   font-size: 50px;
-  padding: 30px 15px 0px 30px;
+  padding: 20px 10px 0px 10px;
   color: #ccc;
+  /* 30px 10px 0px 30px; */
 }
 .profession {
-  padding: 15px 15px 0px 15px;
+  padding: 5px;
   font-size: 30px;
   color: #ccc;
 }
