@@ -4,8 +4,8 @@
 //import reactLogo from "./assets/react.svg";
 //import viteLogo from "/vite.svg";
 import "./App.css";
-import Homework03 from "./homework/HM03/Homework03";
-//import Lesson03 from "./lessons/lesson_03/Lesson03";
+//import Homework03 from "./homework/HM03/Homework03";
+import Lesson03 from "./lessons/lesson_03/Lesson03";
 
 //import Homework02 from "./homework/HM02/Homework02";
 //import Homework_01 from "./homework/HM01/Homework_01";
@@ -37,7 +37,7 @@ import Homework03 from "./homework/HM03/Homework03";
 function App() {
   return (
     <div>
-      <Homework03 />
+      <Lesson03 />
     </div>
   );
 }
