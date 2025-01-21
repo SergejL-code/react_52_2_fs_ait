@@ -4,8 +4,10 @@
 //import reactLogo from "./assets/react.svg";
 //import viteLogo from "/vite.svg";
 import "./App.css";
+import Day from "./lessons/lesson_04/Day";
+//import Lesson04 from "./lessons/lesson_04/Lesson04";
 //import Homework03 from "./homework/HM03/Homework03";
-import Lesson03 from "./lessons/lesson_03/Lesson03";
+//import Lesson03 from "./lessons/lesson_03/Lesson03";
 
 //import Homework02 from "./homework/HM02/Homework02";
 //import Homework_01 from "./homework/HM01/Homework_01";
@@ -37,7 +39,7 @@ import Lesson03 from "./lessons/lesson_03/Lesson03";
 function App() {
   return (
     <div>
-      <Lesson03 />
+      <Day />
     </div>
   );
 }
