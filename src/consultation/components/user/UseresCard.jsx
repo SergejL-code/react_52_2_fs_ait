@@ -1,6 +1,6 @@
 import User from "./User";
 
-function UserCard() {
+function UseresCard() {
   const name1 = "Michail";
   return (
     <div>
@@ -43,4 +43,4 @@ function UserCard() {
   );
 }
 
-export default UserCard;
+export default UseresCard;

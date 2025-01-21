@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function User({ firstName, lastName, age, userName, email }) {
+function User({ firstName, lastName, age, userName, email }) {
   return (
     <div>
       <p>
@@ -16,3 +16,4 @@ export default function User({ firstName, lastName, age, userName, email }) {
     </div>
   );
 }
+export default User;

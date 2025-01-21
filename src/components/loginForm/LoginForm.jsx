@@ -1,28 +1,31 @@
 import MyButton from "../myButton/MyButton";
 import MyInput from "../myInput/MyInput";
 function LoginForm({ name, type }) {
+  const handleSubmit = () => {
+    alert("Submit");
+  };
   return (
-    <div>
-      <form action="" className="form-login">
+    <div className="form">
+      <form action="" method="get" className="form-login">
         <div>
-          <label htmlFor="name">Enter your name:</label>
-          <input type="text" />
+          <input type="text" name="name" required placeholder="" title="" />
         </div>
         <div>
-          <label htmlFor="password">Enter your password:</label>
           <input type="password" name="" id="" />
         </div>
         <div>
-          <label htmlFor="email">Enter your Email:</label>
           <input type="email" name="" id="" />
         </div>
       </form>
       <div>
-        <MyButton submit={type} />
+        <MyButton type={"submit"} text={"SUBMIT"} funk={handleSubmit} />
       </div>
       <div>
         <MyInput />
+        <MyButton />
       </div>
+
+      <div></div>
     </div>
   );
 }
