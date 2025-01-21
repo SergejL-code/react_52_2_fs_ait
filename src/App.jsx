@@ -4,7 +4,10 @@
 //import reactLogo from "./assets/react.svg";
 //import viteLogo from "/vite.svg";
 import "./App.css";
-import Day from "./lessons/lesson_04/Day";
+import Counter from "./consultation/components/counterBank/Counter";
+import User from "./consultation/components/user/User";
+import UserCard from "./consultation/components/user/UserCard";
+//import Day from "./lessons/lesson_04/Day";
 //import Lesson04 from "./lessons/lesson_04/Lesson04";
 //import Homework03 from "./homework/HM03/Homework03";
 //import Lesson03 from "./lessons/lesson_03/Lesson03";
@@ -37,10 +40,6 @@ import Day from "./lessons/lesson_04/Day";
 //-------------------- Lesson 01--------------------------------
 
 function App() {
-  return (
-    <div>
-      <Day />
-    </div>
-  );
+  return <Counter />;
 }
 export default App;
