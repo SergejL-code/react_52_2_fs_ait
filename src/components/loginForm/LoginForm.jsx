@@ -1,32 +1,29 @@
 import MyButton from "../myButton/MyButton";
 import MyInput from "../myInput/MyInput";
-function LoginForm({ name, type }) {
-  const handleSubmit = () => {
-    alert("Submit");
-  };
+import "./loginForm.css";
+function LoginForm() {
   return (
-    <div className="form">
-      <form action="" method="get" className="form-login">
-        <div>
-          <input type="text" name="name" required placeholder="" title="" />
-        </div>
-        <div>
-          <input type="password" name="" id="" />
-        </div>
-        <div>
-          <input type="email" name="" id="" />
-        </div>
-      </form>
-      <div>
-        <MyButton type={"submit"} text={"SUBMIT"} funk={handleSubmit} />
-      </div>
-      <div>
-        <MyInput />
-        <MyButton />
-      </div>
-
-      <div></div>
-    </div>
+    <form className="myForm">
+      <MyInput
+        label={"your login name"}
+        placeholder={"login"}
+        type={"text"}
+        name={"login"}
+      />
+      <MyInput
+        label={"type unique email"}
+        placeholder={"email"}
+        type={"email"}
+        name={"email"}
+      />
+      <MyInput
+        label={"secret password"}
+        placeholder={"password"}
+        type={"password"}
+        name={"password"}
+      />
+      <MyButton text={"send form"} type={"submit"} />
+    </form>
   );
 }
 export default LoginForm;

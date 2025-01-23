@@ -1,11 +1,16 @@
+import "./myInput.css";
+
 function MyInput({ name, type, placeholder, label }) {
   return (
-    <div>
-      <p>{name}</p>
-      <p>{type}</p>
-      <p>{placeholder}</p>
-      <p>{label}</p>
-    </div>
+    <>
+      <label>{label}</label>
+      <input
+        className="myInput"
+        placeholder={placeholder}
+        name={name}
+        type={type}
+      />
+    </>
   );
 }
 export default MyInput;

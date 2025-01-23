@@ -4,13 +4,17 @@
 //import reactLogo from "./assets/react.svg";
 //import viteLogo from "/vite.svg";
 import "./App.css";
-import Homework04 from "./homework/HM04/Homework04";
+//import ProfileMapCard from "./components/profileMapCard/ProfileMapCard";
+import Homework05 from "./homework/HM05/Homework05";
+//import Homework04 from "./homework/HM04/Homework04";
 //import Counter from "./consultation/components/counterBank/Counter";
 //import User from "./consultation/components/user/User";
 //import UserCard from "./consultation/components/user/UserCard";
 //import Day from "./lessons/lesson_04/Day";
 //import Lesson04 from "./lessons/lesson_04/Lesson04";
 //import Homework03 from "./homework/HM03/Homework03";
+//import Lesson05 from "./lessons/lesson_05/Lesson05";
+//import Lesson05 from "./lessons/lesson_05/Lesson05";
 //import Lesson03 from "./lessons/lesson_03/Lesson03";
 
 //import Homework02 from "./homework/HM02/Homework02";
@@ -41,6 +45,6 @@ import Homework04 from "./homework/HM04/Homework04";
 //-------------------- Lesson 01--------------------------------
 
 function App() {
-  return <Homework04 />;
+  return <Homework05 />;
 }
 export default App;
